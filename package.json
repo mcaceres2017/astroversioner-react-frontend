@@ -1,0 +1,48 @@
+{
+  "name": "astroversioner_frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "proxy": "https://astrocollab.inf.udec.cl/versioner/",
+  "homepage": "https://alzz88.github.io/web_astroversioner/",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.8",
+    "@mui/icons-material": "^5.15.4",
+    "@mui/material": "^5.15.4",
+    "lodash": "^4.17.21",
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0",
+    "react-router-dom": "^6.21.1",
+    "react-virtualized-checkbox": "^3.0.1",
+    "react-window": "^1.8.10"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@types/material-ui": "^0.21.16",
+    "@types/node": "^20.10.7",
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@types/react-window": "^1.8.8",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "gh-pages": "^6.1.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8"
+  }
+}
